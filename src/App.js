@@ -1,13 +1,16 @@
+import logo from './logo.svg';
 import './App.css';
-import FileExplorer from './component/fileExplore/FileExplorer';
+import ExplorerView from './component/explorer-view';
+
 
 function App() {
   return (
-    <div className="App">
-      <div className="App">
-      <FileExplorer />
+    <div className="flex">
+    <ExplorerView />
+    <div className="">
+
     </div>
-    </div>
+  </div>
   );
 }
 
