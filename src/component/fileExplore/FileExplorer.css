@@ -1,0 +1,29 @@
+/* src/components/FileExplorer/FileExplorer.css */
+.file-explorer {
+    display: flex;
+  }
+  
+  .file-explorer__tree {
+    width: 250px;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .file-explorer__content {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  /* src/components/FileItem/FileItem.css */
+  .file-item {
+    margin-left: 20px;
+  }
+  
+  .file-item__children {
+    margin-left: 20px;
+  }
+  
+  .file-item button {
+    margin-left: 10px;
+  }
+  
